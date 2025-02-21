@@ -17,7 +17,7 @@ permissions:
 env:
   REGISTRY: ghcr.io
   DOCKER_IMAGE: ghcr.io/${{ github.repository }}
-  BUILD_TARGET: bolt-ai-production # bolt-ai-development
+  BUILD_TARGET: bolt-ai-development #bolt-ai-production
 
 jobs:
   docker-build-publish:
